@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="flex justify-between mb-4">
           <h2 className="lg:text-3xl">Contact Details</h2>
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white py:2 font-bold lg:py-2 lg:px-4 rounded"
+            className="bg-blue-500 hover:bg-blue-700 text-white py:2  px-2 font-bold lg:py-2 lg:px-4 rounded"
             onClick={() => setShowDialog(true)}
           >
             Add Contact
@@ -41,7 +41,7 @@ const Contact = () => {
         </div>
         {console.log("dadada", data.length)}
         {data.length > 0 ? (
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto min-w-[600px]">
             <table className="min-w-full bg-white">
               <thead>
                 <tr>
